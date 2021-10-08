@@ -1,0 +1,9 @@
+create table questions{
+     questionId int primary key auto_increment,
+     title varchar(50),
+     optionA varchar(20),
+     optionB varchar(20),
+     optionC varchar(20),
+     optionD varchar(20),
+     answer  char(1),
+}
